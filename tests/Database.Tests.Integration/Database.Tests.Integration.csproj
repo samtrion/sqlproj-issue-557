@@ -30,7 +30,6 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\..\src\Database.TestValues\Database.TestValues.csproj" ReferenceOutputAssembly="false" />
-		<ProjectReference Include="..\..\src\Database\Database.csproj" ReferenceOutputAssembly="false" />
 	</ItemGroup>
 
 </Project>
