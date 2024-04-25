@@ -9,6 +9,7 @@ using Testcontainers.MsSql;
 public sealed class ContainerFactory : WebApplicationFactory<Program>
 {
     private readonly MsSqlContainer _container = new MsSqlBuilder()
+        .WithImage("mcr.microsoft.com/mssql/server:2019-latest")
         .WithPassword("ourStrong!123")
         .Build();
 
