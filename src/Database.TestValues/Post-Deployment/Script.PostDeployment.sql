@@ -2,4 +2,4 @@
 PRINT N'EXECUTE Post Deployment scripts'
 
 -- Entries with Foreign Keys
-:r ../Seeds/dbo/MainCodes.sql
+:r ../Seeds/dbo/mainCodes.sql
