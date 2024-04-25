@@ -15,6 +15,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<None Include="Seeds\**\*.sql" />
 		<PostDeploy Include="Post-Deployment\Script.PostDeployment.sql" />
 	</ItemGroup>
 
