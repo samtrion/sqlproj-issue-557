@@ -5,9 +5,13 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D04F1854-6A52-4E08-8993-00C777E80BED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "src\Database\Database.csproj", "{78EBF2AF-F3C5-49AA-B818-3206246D5F4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Database", "src\Database\Database.csproj", "{78EBF2AF-F3C5-49AA-B818-3206246D5F4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database.TestValues", "src\Database.TestValues\Database.TestValues.csproj", "{F61817FD-9FD5-49BF-B443-9D4EACB37C1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Database.TestValues", "src\Database.TestValues\Database.TestValues.csproj", "{F61817FD-9FD5-49BF-B443-9D4EACB37C1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{403C224B-296B-4313-8EC1-2C02650027C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database.Tests.Integration", "tests\Database.Tests.Integration\Database.Tests.Integration.csproj", "{EF0D74DE-6E52-4149-9417-66D999BAE16C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,10 @@ Global
 		{F61817FD-9FD5-49BF-B443-9D4EACB37C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F61817FD-9FD5-49BF-B443-9D4EACB37C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F61817FD-9FD5-49BF-B443-9D4EACB37C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF0D74DE-6E52-4149-9417-66D999BAE16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF0D74DE-6E52-4149-9417-66D999BAE16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF0D74DE-6E52-4149-9417-66D999BAE16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF0D74DE-6E52-4149-9417-66D999BAE16C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +38,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{78EBF2AF-F3C5-49AA-B818-3206246D5F4E} = {D04F1854-6A52-4E08-8993-00C777E80BED}
 		{F61817FD-9FD5-49BF-B443-9D4EACB37C1A} = {D04F1854-6A52-4E08-8993-00C777E80BED}
+		{EF0D74DE-6E52-4149-9417-66D999BAE16C} = {403C224B-296B-4313-8EC1-2C02650027C0}
 	EndGlobalSection
 EndGlobal
