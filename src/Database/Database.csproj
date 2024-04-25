@@ -1,15 +1,8 @@
-﻿<Project Sdk="MSBuild.Sdk.SqlProj/2.7.2">
-<!--<Project Sdk="MSBuild.Sdk.SqlProj/2.6.1">-->
+﻿<Project Sdk="MSBuild.Sdk.SqlProj/2.6.1">
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<SqlServerVersion>Sql160</SqlServerVersion>
 		<!-- For additional properties that can be set here, please refer to https://github.com/rr-wfm/MSBuild.Sdk.SqlProj#model-properties -->
 		<RunSqlCodeAnalysis>true</RunSqlCodeAnalysis>
 	</PropertyGroup>
-	<ItemGroup>
-	  <None Remove="dbo\tables\mainCode.sql" />
-	</ItemGroup>
-	<ItemGroup>
-	  <Folder Include="dbo\Tables\" />
-	</ItemGroup>
 </Project>
